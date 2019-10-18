@@ -1,0 +1,143 @@
+/*https://www.modularscale.com/?1&em&1.25*/
+/* 16px -- ratio 1.25 */
+/* colors
+background color: rgb(176,190,197)
+section color: rgb(120,144,156)
+heading and subheading color:  rgb(69,90,100) */
+
+html {
+    font-size: 16px;
+}
+body {
+    background-color: rgba(176,190,197, 0.2);
+}
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+    font-family: Raleway, Verdana, Arial, sans-serif;
+}
+h1 {
+    font-family: 'Amatic SC', Verdana, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.441em;
+    font-weight: 700;
+    line-height: 2.941em;
+    margin: 5px;
+    padding-left: 10px;
+    background-color: rgb(69,90,100);
+}
+h2 {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-size: 1.563em;
+    font-weight: 500;
+    line-height: 1.863em;
+    margin: 0;
+    padding-left: 10px;
+    background-color: rgb(120,144,156);
+}
+h3 {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    color: rgb(236,239,241);
+    background-color: rgb(69,90,100);
+}
+li {
+    font-family: Raleway, Verdana, Arial, sans-serif;
+    font-weight: 300;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+address {
+    font-family: Raleway, Verdana, Arial, sans-serif;
+    font-size: .8em;
+    line-height: 1.3em;
+}
+ul {
+    border: 1px dashed black;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: none;   
+}
+ol {
+    border: 1px dashed black;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 400px;
+    list-style-position: inside; 
+}
+figcaption {
+    font-family: Raleway, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    font-style: italic;
+}
+a {
+    font-family: Raleway, Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+a[href^=mailto] {
+    font-weight: bold;
+    font-size: 1em;
+}
+a:visited {
+  color: rgb(244, 67, 54);
+}
+a:hover {
+    color: purple;
+}
+b {
+    font-weight: bold;
+}
+#container {
+    max-width: 1280px;
+    margin: auto;
+}
+.swatches {
+    display: block;
+    height: 4em;
+    margin-bottom: 0.3em;
+    border-radius: 5px;
+    box-sizing: border-box;
+    list-style: none;
+}
+.backgroundColor {
+    background-color: rgba(176,190,197, 0.2);
+}
+.headingColorDark {
+    background-color: rgb(69,90,100);
+}
+.headingColorLight {
+    background-color: rgb(120,144,156);
+}
+.accentColorDark {
+    background-color: rgb(244, 67, 54);
+}
+.accentColorLight {
+    background-color: rgb(229, 115, 115);
+    color: #fff;
+}
+.accentFont {
+    font-family: 'Amatic SC', Verdana, Arial, sans-serif;
+    font-size: 24px;
+}
+.headingFont {
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+}
+.normalFont {
+    font-family: Raleway, Verdana, Arial, sans-serif;
+}
+.stylebookList {
+        display: flex;
+        font-size: 14px;
+        max-width: 500px;
+}
+.stylebookListItem {
+    max-width: 150px;
+}
+.biography {
+    margin: 0px;
+    display: inline-block;
+    width: 49%;
+}
